@@ -5,6 +5,7 @@ import { createStore } from "redux";
 
 import App from "./components/App";
 import remidersReducer  from "./reducers";
+import "./index.css";
 
 const store = new createStore(remidersReducer);
 
